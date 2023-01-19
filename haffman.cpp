@@ -1,13 +1,4 @@
-/*
-魯喆元 B103040003
-Dec. / 6 / 2022
-Make a Huffman compression software
-*/
-#include <iostream>
-#include <string>
-#include <vector>
-#include <stdlib.h>
-#include <algorithm>
+#include<bits/stdc++.h>
 
 using namespace std;
 
