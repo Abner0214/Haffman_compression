@@ -10,13 +10,13 @@ struct HuffmanNode{
     HuffmanNode *left, *right, *smallestChild;
 
     HuffmanNode(unsigned char data, int freq){
-        left = right = NULL;
+        left = right = nullptr;
         this->data = data;
         this->freq = freq;
         this->smallestChild = this;
     }
     HuffmanNode(HuffmanNode* smallestChild, unsigned char data, int freq){
-        left = right = NULL;
+        left = right = nullptr;
         this->data = data;
         this->freq = freq;
         this->smallestChild = smallestChild;
