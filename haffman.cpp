@@ -7,7 +7,7 @@ struct HuffmanNode{
     unsigned char data;
     int freq;
 
-    HuffmanNode *left, *right, *smallestChild;
+    HuffmanNode *left, *right;
 
     HuffmanNode(unsigned char data, int freq){
         left = right = nullptr;
