@@ -1,3 +1,8 @@
+// Example of operation:
+// huffman –c –i infile –o outfile
+// (compress operation , infile is input file, and outfile is output file)
+// huffman –u –i infile –o outfile
+//  (uncompress operation, infile is input file, and outfile is output file)
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -7,7 +12,7 @@ struct HuffmanNode{
     unsigned char data;
     int freq;
 
-    HuffmanNode *left, *right;
+    HuffmanNode *left, *right, *smallestChild;
 
     HuffmanNode(unsigned char data, int freq){
         left = right = nullptr;
